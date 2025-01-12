@@ -12,11 +12,12 @@
     "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
  },
 "samples": [
-{
-  "displayName": "Demo Scene",
-  "description": "Demo Scene",
-  "path": "Samples/DemoScene"
-}
+  {
+    "displayName": "Demo Scene",
+    "description": "Demo Scene",
+    "path": "Samples/DemoScene"
+  }
+],
  "keywords": [
     "HDRP",
     "weather",
