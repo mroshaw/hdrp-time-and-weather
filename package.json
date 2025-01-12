@@ -1,0 +1,32 @@
+{
+  "name": "com.daftapplegames.hdrp-time-and-weather",
+  "version": "1.0.0",
+  "displayName": "HDRP Time and Weather",
+  "description": "A system to manage dynamic skies, weather and time of day in Unity 6 HDRP",
+  "unity": "6000.0",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.unity.render-pipelines.high-definition": "17.0.3",
+    "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
+ },
+"samples": [
+{
+  "displayName": "Demo Scene",
+  "description": "Demo Scene",
+  "path": "Samples/DemoScene"
+}
+ "keywords": [
+    "HDRP",
+    "weather",
+    "sky",
+    "skies",
+    "time of day"
+  ],
+  "author": {
+    "name": "Oli Ollerenshaw",
+    "email": "oli@mroshaw.co.uk",
+    "url": ""
+  }
+}
