@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using NaughtyAttributes;
+using DaftAppleGames.Attributes;
 using UnityEngine;
 
 namespace DaftAppleGames.Core.TimeAndWeather

@@ -1,11 +1,12 @@
 {
-    "name": "daftapplegames.hdrp-time-and-weather.core",
+    "name": "daftapplegames.attributes.editor",
     "rootNamespace": "",
     "references": [
-        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
         "GUID:917ce84e04284d14f95c4ba9fcaadcec"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

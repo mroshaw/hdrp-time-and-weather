@@ -1,4 +1,4 @@
-using NaughtyAttributes;
+using DaftAppleGames.Attributes;
 using UnityEngine;
 using UnityEngine.Rendering;
 

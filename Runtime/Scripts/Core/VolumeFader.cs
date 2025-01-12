@@ -1,5 +1,5 @@
 using System.Collections;
-using NaughtyAttributes;
+using DaftAppleGames.Attributes;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering;
