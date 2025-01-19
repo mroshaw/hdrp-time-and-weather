@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d87188bbaa27844b79b42c71554589, type: 3}
+  m_Name: LightCloudDryWeatherPreset
+  m_EditorClassIdentifier: 
+  weatherPresetName: LightCloudDry
+  fogVolumeProfile: {fileID: 11400000, guid: 36d7de31640619249bd8398a396e253f, type: 2}
+  cloudVolumeProfile: {fileID: 11400000, guid: 7d1c53db44cb43c4d84dfb51a22fa8cc, type: 2}
+  playAmbientAudio: 0
+  ambientAudioClips: []
+  spawnWeatherFX: 0
+  weatherFXPrefab: {fileID: 0}

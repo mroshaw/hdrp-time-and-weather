@@ -2,7 +2,7 @@ using DaftAppleGames.Attributes;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace DaftAppleGames.Core.TimeAndWeather
+namespace DaftAppleGames.TimeAndWeather
 {
     /// <summary>
     /// Scriptable Object: TODO Purpose and Summary

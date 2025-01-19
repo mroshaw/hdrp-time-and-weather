@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d87188bbaa27844b79b42c71554589, type: 3}
+  m_Name: FoggyDryWeatherPreset
+  m_EditorClassIdentifier: 
+  weatherPresetName: FoggyDry
+  fogVolumeProfile: {fileID: 11400000, guid: 83838d1d0916225429275e4f8ef9caa8, type: 2}
+  cloudVolumeProfile: {fileID: 11400000, guid: d28bcd2a1e987564ba350d15e0a789c4, type: 2}
+  playAmbientAudio: 0
+  ambientAudioClips: []
+  spawnWeatherFX: 0
+  weatherFXPrefab: {fileID: 0}

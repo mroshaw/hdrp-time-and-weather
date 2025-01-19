@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering;
 
-namespace DaftAppleGames.Core.TimeAndWeather
+namespace DaftAppleGames.TimeAndWeather
 {
     public class VolumeFader : MonoBehaviour
     {
@@ -13,7 +13,7 @@ namespace DaftAppleGames.Core.TimeAndWeather
         [BoxGroup("Settings")] [SerializeField] private Volume sourceVolume;
         [BoxGroup("Settings")] [SerializeField] private Volume tempTargetVolume;
         [BoxGroup("Settings")] [SerializeField] private float onTargetWeight = 1.0f;
-        [BoxGroup("Settings")] [SerializeField] private float offTargetWeight = 0.0f;
+        [BoxGroup("Settings")] [SerializeField] private float offTargetWeight;
         [BoxGroup("Settings")] [SerializeField] private float defaultTransitionDuration;
         [BoxGroup("Events")] public UnityEvent transitionStartedEvent;
         [BoxGroup("Events")] public UnityEvent transitionCompleteEvent;
