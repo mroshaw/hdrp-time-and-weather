@@ -5,7 +5,6 @@ using DaftAppleGames.Attributes;
 #endif
 using UnityEngine;
 using DaftAppleGames.TimeAndWeather;
-using UnityEngine;
 
 namespace DaftAppleGames.Samples
 {

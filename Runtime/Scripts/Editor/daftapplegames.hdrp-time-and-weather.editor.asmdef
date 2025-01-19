@@ -2,7 +2,8 @@
     "name": "daftapplegames.hdrp-time-and-weather.editor",
     "rootNamespace": "",
     "references": [
-        "GUID:6a2176ff65789fb4bbae1b850ea33498"
+        "GUID:6a2176ff65789fb4bbae1b850ea33498",
+        "GUID:29f84da4f7dde724b9c1ed562a7cb412"
     ],
     "includePlatforms": [
         "Editor"

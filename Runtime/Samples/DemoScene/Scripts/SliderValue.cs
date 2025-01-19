@@ -1,4 +1,3 @@
-using System.Globalization;
 #if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
 #else
@@ -6,7 +5,6 @@ using DaftAppleGames.Attributes;
 #endif
 using UnityEngine;
 using TMPro;
-using UnityEngine;
 using UnityEngine.UI;
 
 namespace DaftAppleGames.Samples

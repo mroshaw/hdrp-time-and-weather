@@ -1,15 +1,12 @@
 using System.Collections.Generic;
-#if ODIN_INSPECTOR
-using Sirenix.OdinInspector;
-#else
+
 #if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
 #else
 using DaftAppleGames.Attributes;
 #endif
 using UnityEngine;
-#endif
-using UnityEngine;
+
 using UnityEngine.Rendering.HighDefinition;
 
 namespace DaftAppleGames.TimeAndWeather

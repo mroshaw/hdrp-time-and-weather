@@ -8,7 +8,7 @@
   "changelogUrl": "https://example.com/changelog.html",
   "licensesUrl": "https://example.com/licensing.html",
   "dependencies": {
-    "com.unity.render-pipelines.high-definition": "17.0.3"
+    "com.unity.behavior": "1.0.7"
  },
 "samples": [
   {
