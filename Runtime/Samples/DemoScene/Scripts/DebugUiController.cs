@@ -1,6 +1,11 @@
 using System;
 using System.Globalization;
+#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
+#else
 using DaftAppleGames.Attributes;
+#endif
+using UnityEngine;
 using DaftAppleGames.TimeAndWeather;
 using TMPro;
 using UnityEngine;

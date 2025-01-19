@@ -1,6 +1,10 @@
 using System;
 using System.Collections;
+#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
+#else
 using DaftAppleGames.Attributes;
+#endif
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering.HighDefinition;

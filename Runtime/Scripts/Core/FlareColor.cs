@@ -1,5 +1,9 @@
 using System;
+#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
+#else
 using DaftAppleGames.Attributes;
+#endif
 using UnityEngine;
 using UnityEngine.Rendering;
 

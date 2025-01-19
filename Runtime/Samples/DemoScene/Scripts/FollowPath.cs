@@ -1,4 +1,8 @@
+#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
+#else
 using DaftAppleGames.Attributes;
+#endif
 using UnityEngine;
 
 namespace DaftAppleGames.Samples
