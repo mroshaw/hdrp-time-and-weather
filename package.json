@@ -14,7 +14,7 @@
   {
     "displayName": "Demo Scene",
     "description": "Unity 6 HDRP scene demonstrating the features of the package.",
-    "path": "Samples/DemoScene"
+    "path": "Samples~/DemoScene"
   }
 ],
  "keywords": [
