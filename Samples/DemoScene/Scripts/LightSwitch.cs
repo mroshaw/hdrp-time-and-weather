@@ -21,6 +21,11 @@ namespace DaftAppleGames.Samples
         private void Start()
         {
             _light = GetComponent<Light>();
+
+            if (!timeOfDayController)
+            {
+                enabled = false;
+            }
         }
 
         private void Update()

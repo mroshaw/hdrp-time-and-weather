@@ -23,7 +23,7 @@ namespace DaftAppleGames.TimeAndWeather
         [BoxGroup("Settings")] [SerializeField] private bool timeProgression = true;
         [Tooltip("Sets the speed at which the time of day passes.")]
         [BoxGroup("Settings")] [SerializeField] private float timeSpeed = 0.5f;
-
+        [BoxGroup("Settings")] [SerializeField] private bool applyInEditor = false;
         // South East England
         [BoxGroup("Settings")] [SerializeField] private float latitude = 51.183139f;
         [BoxGroup("Settings")] [SerializeField] private float longitude = -0.707395f;
@@ -32,9 +32,9 @@ namespace DaftAppleGames.TimeAndWeather
         // [BoxGroup("Settings")] [SerializeField] private float latitude = 48.83402f;
         // [BoxGroup("Settings")] [SerializeField] private float longitude = 2.367259f;
 
-        [BoxGroup("Events")] public UnityEvent<float> timeChangedEvent;
-        [BoxGroup("Events")] public UnityEvent<int> hourPassedEvent;
-        [BoxGroup("Events")] public UnityEvent<int> minutePassedEvent;
+        [FoldoutGroup("Events")] public UnityEvent<float> timeChangedEvent;
+        [FoldoutGroup("Events")] public UnityEvent<int> hourPassedEvent;
+        [FoldoutGroup("Events")] public UnityEvent<int> minutePassedEvent;
 
         public float TimeSpeed
         {
@@ -75,12 +75,17 @@ namespace DaftAppleGames.TimeAndWeather
 
         private void Update()
         {
-            if (!timeProgression || !Application.isPlaying)
+            if (timeProgression && (applyInEditor || Application.isPlaying))
             {
+                AdvanceTimeOfDay();
+                SetSunPosition();
                 return;
             }
 
-            AdvanceTimeOfDay();
+            if (applyInEditor && !Application.isPlaying)
+            {
+                SetSunPosition();
+            }
         }
 
 
@@ -155,8 +160,6 @@ namespace DaftAppleGames.TimeAndWeather
                 _currentMinute = newMinute;
                 minutePassedEvent?.Invoke(_currentMinute);
             }
-
-            SetSunPosition();
         }
 
         public void SetTimeSpeed(float speed)
@@ -249,6 +252,7 @@ namespace DaftAppleGames.TimeAndWeather
             seconds = Mathf.FloorToInt((timeOfDay - hours - (minutes / 60f)) * 60f * 60f);
         }
 
+        /*
         #region Editor methods
         [Button("Dawn")]
         private void SetDawn()
@@ -292,7 +296,9 @@ namespace DaftAppleGames.TimeAndWeather
         private void SetSceneTime(float hour)
         {
             timeOfDay = hour;
+            SetSunPosition();
         }
         #endregion
+        */
     }
 }

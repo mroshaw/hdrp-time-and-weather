@@ -311,7 +311,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fb6dc89203d11b64fa4803b0d854baf5, type: 2}
   - {fileID: 11400000, guid: 14540039463a46c4eb08c64054ccb494, type: 2}
   - {fileID: 11400000, guid: d6f734d221f185942bc7f3dc4327c1bc, type: 2}
-  sceneHour: 6
   weatherChangeStartedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -331,10 +330,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   celestialBodiesManager: {fileID: 4932281571367514568}
-  timeOfDay: 16.84
+  timeOfDay: 12
   defaultTransitionDuration: 10
-  timeProgression: 1
+  timeProgression: 0
   timeSpeed: 0.5
+  applyInEditor: 1
   latitude: 51.18314
   longitude: -0.707395
   timeChangedEvent:
@@ -847,7 +847,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 810705780d42aab44b16620b156dca03, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 26b1a1339bcac304cb36a576f781618d, type: 2}
 --- !u!1 &6610065562925468163
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,7 +877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6610065562925468163}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.116571516, y: 0.73220056, z: -0.1296386, w: -0.65839756}
+  m_LocalRotation: {x: -0.000000018700472, y: 0.9038654, z: -0.42781696, w: -0.00000003950921}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1

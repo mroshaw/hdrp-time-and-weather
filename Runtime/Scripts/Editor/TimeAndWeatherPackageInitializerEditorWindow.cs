@@ -16,5 +16,10 @@ namespace DaftAppleGames.TimeAndWeather.Editor
         {
             return "Welcome to HDRP Time And Weather!";
         }
+
+        protected override string GetBaseInstallLocation()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

@@ -6,15 +6,15 @@ TerrainLayer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GrassMeadow
-  m_DiffuseTexture: {fileID: 2800000, guid: 407e9e2053017c14593731986a501e19, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: b6fe7e3a591070944a81d4caeeb5a039, type: 3}
+  m_Name: DryRockyGround
+  m_DiffuseTexture: {fileID: 2800000, guid: 84fd87bba9ca7c6489ea3b10b1a110da, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: ba5d8b6e1d356714aa2ebb46b784f7b9, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 2, y: 2}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
-  m_Metallic: 0
-  m_Smoothness: 0
+  m_Metallic: 1
+  m_Smoothness: 0.1
   m_NormalScale: 1
   m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
   m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}

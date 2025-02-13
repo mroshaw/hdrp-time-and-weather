@@ -17,7 +17,6 @@ namespace DaftAppleGames.TimeAndWeather
         [BoxGroup("Weather")] [SerializeField] private VolumeFader cloudVolumeFader;
         [BoxGroup("Weather")] [SerializeField] private WeatherPreset startingWeatherPreset;
         [BoxGroup("Weather")] [SerializeField] private WeatherPreset[] allWeatherPresets;
-        [BoxGroup("Debug")] [SerializeField] private float sceneHour = 6.0f;
 
         [BoxGroup("Events")] public UnityEvent weatherChangeStartedEvent;
         [BoxGroup("Events")] public UnityEvent weatherChangeFinishedEvent;
