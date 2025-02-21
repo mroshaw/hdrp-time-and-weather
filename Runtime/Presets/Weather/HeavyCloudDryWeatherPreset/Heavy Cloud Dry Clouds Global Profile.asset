@@ -30,13 +30,13 @@ MonoBehaviour:
   active: 1
   opacity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.045
   upperHemisphereOnly:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   layers:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   resolution:
     m_OverrideState: 0
     m_Value: 1024
@@ -81,8 +81,8 @@ MonoBehaviour:
       m_OverrideState: 0
       m_Value: 0
     distortionMode:
-      m_OverrideState: 0
-      m_Value: 0
+      m_OverrideState: 1
+      m_Value: 1
     scrollOrientation:
       m_OverrideState: 0
       m_Value:
@@ -113,27 +113,27 @@ MonoBehaviour:
       m_OverrideState: 0
       m_Value: 1
     castShadows:
-      m_OverrideState: 0
-      m_Value: 0
+      m_OverrideState: 1
+      m_Value: 1
   layerB:
     cloudMap:
       m_OverrideState: 0
       m_Value: {fileID: 2800000, guid: 57a33fc2476a01644865bfde5f06e2f4, type: 3}
     opacityR:
-      m_OverrideState: 0
+      m_OverrideState: 1
       m_Value: 1
     opacityG:
-      m_OverrideState: 0
+      m_OverrideState: 1
       m_Value: 0
     opacityB:
-      m_OverrideState: 0
+      m_OverrideState: 1
       m_Value: 0
     opacityA:
-      m_OverrideState: 0
+      m_OverrideState: 1
       m_Value: 0
     altitude:
-      m_OverrideState: 0
-      m_Value: 1000
+      m_OverrideState: 1
+      m_Value: 163.48
     rotation:
       m_OverrideState: 0
       m_Value: 0
@@ -144,8 +144,8 @@ MonoBehaviour:
       m_OverrideState: 0
       m_Value: 0
     distortionMode:
-      m_OverrideState: 0
-      m_Value: 0
+      m_OverrideState: 1
+      m_Value: 1
     scrollOrientation:
       m_OverrideState: 0
       m_Value:
@@ -171,7 +171,7 @@ MonoBehaviour:
       m_Value: 10
     thickness:
       m_OverrideState: 0
-      m_Value: 8000
+      m_Value: 1
     ambientProbeDimmer:
       m_OverrideState: 0
       m_Value: 1
@@ -237,7 +237,7 @@ MonoBehaviour:
     m_Value: 0
   m_CloudPreset:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 4
   cumulusMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -382,10 +382,10 @@ MonoBehaviour:
     m_Value: 0.5
   densityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 0.327
   shapeFactor:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 0.79
   shapeScale:
     m_OverrideState: 1
     m_Value: 5
@@ -394,7 +394,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0}
   erosionFactor:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 1
   erosionScale:
     m_OverrideState: 1
     m_Value: 107
@@ -411,16 +411,16 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 200
   ambientLightProbeDimmer:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   sunLightDimmer:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   erosionOcclusion:
     m_OverrideState: 1
     m_Value: 0.7
   globalWindSpeed:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
       mode: 1
       customValue: 100
@@ -440,10 +440,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.5
   shapeSpeedMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   erosionSpeedMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.25
   verticalShapeWindSpeed:
     m_OverrideState: 0
