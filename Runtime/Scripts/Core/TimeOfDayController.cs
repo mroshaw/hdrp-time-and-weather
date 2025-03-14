@@ -24,13 +24,19 @@ namespace DaftAppleGames.TimeAndWeather
         [Tooltip("Sets the speed at which the time of day passes.")]
         [BoxGroup("Settings")] [SerializeField] private float timeSpeed = 0.5f;
         [BoxGroup("Settings")] [SerializeField] private bool applyInEditor = false;
-        // South East England
-        [BoxGroup("Settings")] [SerializeField] private float latitude = 51.183139f;
-        [BoxGroup("Settings")] [SerializeField] private float longitude = -0.707395f;
+        [BoxGroup("Settings")] [SerializeField] private bool useLatAndLong = false;
 
         // Paris
         // [BoxGroup("Settings")] [SerializeField] private float latitude = 48.83402f;
         // [BoxGroup("Settings")] [SerializeField] private float longitude = 2.367259f;
+
+        // Yuma, sunniest place on eart
+        [BoxGroup("Settings")] [SerializeField] private float latitude = 32.6927f;
+        [BoxGroup("Settings")] [SerializeField] private float longitude = 114.6277f;
+
+        // South East England
+        // [BoxGroup("Settings")] [SerializeField] private float latitude = 51.183139f;
+        // [BoxGroup("Settings")] [SerializeField] private float longitude = -0.707395f;
 
         [FoldoutGroup("Events")] public UnityEvent<float> timeChangedEvent;
         [FoldoutGroup("Events")] public UnityEvent<int> hourPassedEvent;
@@ -222,8 +228,8 @@ namespace DaftAppleGames.TimeAndWeather
             declination *= Mathf.Deg2Rad;
             float latRad = (float)sunLatitude * Mathf.Deg2Rad;
 
-            float latSin = Mathf.Sin(latRad);
-            float latCos = Mathf.Cos(latRad);
+            float latSin = useLatAndLong ? Mathf.Sin(latRad) : Mathf.Sin(1.0f);
+            float latCos = useLatAndLong ? Mathf.Cos(latRad) : Mathf.Cos(1.0f);
 
             float hourCos = Mathf.Cos(localHourAngle);
 
