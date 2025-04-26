@@ -12,10 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6959d79451d9a3145b8a16b7d17a2d51, type: 3}
   m_Name: TimeAndWeatherPackageContents
   m_EditorClassIdentifier: 
-  baseInstallLocation: 
-  packageItems: []
-  isInstalled: 0
-  welcomeWindowDisplayed: 0
   onInstallStateChanged:
     m_PersistentCalls:
       m_Calls: []
+  isInstalled: 1
+  welcomeWindowDisplayed: 0
